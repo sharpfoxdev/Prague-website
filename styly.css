@@ -1,0 +1,93 @@
+body{
+	font-family: Verdana, "sans-serif";
+	text-align: justify;
+	background-color: yellow;
+	font-size: medium;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: linear-gradient(white,  #ffff80);
+}
+
+a{
+	color:  #0000ff;
+	font-weight: bold
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+
+p{
+	text-indent: 40px;
+}
+
+header{
+	margin-bottom: 20px;
+	margin-top:10px;
+	background-color: black;
+	padding: 10px;
+	font-size: 50px;
+	background-image: url("panorama.jpg");
+	background-size: cover;
+	color: white;
+	padding-left: 30px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px 2px grey
+}
+
+h2{
+	text-shadow: 3px 2px 4px grey
+}
+
+#menu{
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px 10px 20px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px 2px grey
+}
+
+caption{
+	caption-side: top;
+	font-weight: bold;
+}
+
+img {
+	border-radius: 7px;
+	box-shadow: 2px 2px 6px 2px grey
+}
+
+article{
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	box-shadow: 2px 2px 7px 2px grey;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.15);
+}
+
+table{
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: gold;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+.policka{
+	background-color: white
+}
+
+tr, td{
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-color: black;
+	border-collapse: collapse;
+}
+
+section > ul > li > ul{
+	list-style-type: square
+}
